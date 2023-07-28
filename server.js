@@ -56,6 +56,6 @@ app.get("/details/:id", (req, res) => {
   });
 });
 
-app.listen(8000, (req, res) => {
+app.listen(8080, (req, res) => {
   console.log(`Server is running on 8080`);
 });
