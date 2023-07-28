@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Registration</title>
+    <link rel="stylesheet" href="../css/register.css" />
+  </head>
+  <body>
+    <div class="h1">
+      <h1>Student Registration</h1>
+    </div>
+    <section>
+      <div class="mainDiv div-left">
+        <div class="subLeft">
+          <h1>Register as a Student</h1>
+        </div>
+      </div>
+      <div class="mainDiv div-right">
+        <form action="/register" method="POST">
+          <div>
+            <label for="regno">Student Register Number</label>
+            <input
+              type="text"
+              required
+              name="regno"
+              id="regno"
+              placeholder="Enter Student Register Number"
+            />
+          </div>
+          <div>
+            <label for="ename">Student Name</label>
+            <input
+              type="text"
+              required
+              name="sname"
+              id="sname"
+              placeholder="Enter Student Name"
+            />
+          </div>
+          <div>
+            <label for="email">Student Email</label>
+            <input
+              type="email"
+              required
+              name="email"
+              id="email"
+              placeholder="Enter Email"
+            />
+          </div>
+          <div>
+            <label for="mobile">Mobile Number</label>
+            <input
+              type="text"
+              required
+              name="mobile"
+              id="mobile"
+              placeholder="Enter Mobile Number"
+            />
+          </div>
+          <div>
+            <label for="gender">Gender</label>
+            <input
+              type="text"
+              required
+              id="gender"
+              name="gender"
+              placeholder="Enter Gender"
+            />
+          </div>
+          <div>
+            <label for="dob">Date of Birth</label>
+            <input
+              type="text"
+              required
+              id="dob"
+              name="dob"
+              placeholder="Enter DOB"
+            />
+          </div>
+          <div>
+            <input class="button" type="submit" value="Register" />
+          </div>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
